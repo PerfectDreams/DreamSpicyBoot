@@ -54,14 +54,14 @@ Você também pode doar para a [Loritta](https://loritta.website/support), a mas
 ### 🙌 Como Usar?
 
 #### Usando Windows?
-DreamSpicyBoot também funciona para windows! Só que com uma pequena diferença. Você deve crira um arquivo chamado `start.bat` ao invés de `start.sh` com o seguinte:
+DreamSpicyBoot também funciona para windows! Só que com uma pequena diferença. Você deve criar um arquivo chamado `start.bat` ao invés de `start.sh` com o seguinte:
 ```
 java -Xmx256M -Xms256M -DserverRoot=%CD% -jar DreamSpicyBoot-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 start start0.bat
 ```
 
-Usar o DreamSpicyBoot é simples, primeiro você precisar colocá-lo em alguma pasta e criar um `config.yml`.
+Usar o DreamSpicyBoot é simples, primeiro você precisa colocá-lo em alguma pasta e criar um `config.yml`.
 ```yml
 plugins-folder: "/home/servers/perfectdreams/plugins_paradise/"
 extra-flags: "-Dserver={{serverName}}"
